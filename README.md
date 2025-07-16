@@ -8,9 +8,11 @@ Warning #2: using hardcoded offsets, it may change depending on the version and 
 
 This driver has been tested on an Hyper-V Manager made VM with Windows 10 Pro Version 22H OS Build 19045.6093
 
-Usage:
+### Usage:
 
 ```
 sc.exe create hideprocessdkom type= kernel binPath= C:\Path\To\HideProcessDKOM.sys
 sc.exe start hideprocessdkom
 ```
+
+![](Demo.gif)
